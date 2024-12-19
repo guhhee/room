@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body {
+text-align : center;
+}
+.a {
+  color: #529fff; /* 文字色 */
+  font-weight: bold; /* 太字に */
+  font-size: 100px; /* 文字の大きさ */
+  border: solid 3px #6091d3;/*線*/
+  border-radius: 10px;/*角の丸み*/
+  font-family: serif;/*フォント*/
+}
+body {
+    background-color: #99DDFF
+}
+.button {
+  background-color: #fff;
+  border: solid 2px #191970;
+  color: #191970;
+  border-radius: 20px;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 1em;
+  box-shadow: 0 5px 0 #191970;
+  display: inline-block;
+  transition: .3s;
+}
+.button12:hover {
+  color: #191970;
+  transform: translateY(5px);
+  box-shadow: 0 0 0 #191970;
+}
+    </style>
+</head>
+<body>
+    <span class="a">こんにちは！！</span><br>
+    <button class="button" onclick="location.href='https://guhhee.github.io/room/'">マッチクイズ</button>
+</body>
+</html>
